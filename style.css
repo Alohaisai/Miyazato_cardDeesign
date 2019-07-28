@@ -1,0 +1,55 @@
+.container {
+  background: #FFFFFF;
+  color: #333333;
+  height: 667px;
+  width: 375px;
+  font-family: adobe-clean, 'adobe clean', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.box {
+  height: 401.12px;
+  width: 315px;
+  margin: 30px 30px 235.88px 30px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+.beach {
+  margin: 19px 21px 29.7px 21px;
+}
+
+.title {
+  font-size: 20px;
+  height: 21px;
+  width: 278px;
+  margin-left: 18px;
+  margin-right: 19px;
+  margin-bottom: 16.19px;
+}
+
+.text {
+  font-size: 16px;
+  width: 278px;
+  margin-left: 18px;
+  margin-right: 19px;
+  margin-bottom: 25.24px;
+  line-height: 1.15;
+}
+
+.btn {
+  font-size: 16px;
+  color: #FFFFFF;
+  height: 44px;
+  width: 200px;
+  margin-left: 58px;
+  margin-right: 57px;
+  margin-bottom: 28px;
+  background: #485A7C;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 #263146;
+}
+
+.btn-text{
+  padding: 13px 55.5px 15px 54.5px;
+}
