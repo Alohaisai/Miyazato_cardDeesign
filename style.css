@@ -1,9 +1,10 @@
+@charset "UTF-8";
+
 .container {
   background: #FFFFFF;
   color: #333333;
   height: 667px;
   width: 375px;
-  font-family: adobe-clean, 'adobe clean', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
 .box {
@@ -17,39 +18,56 @@
 
 .beach {
   margin: 19px 21px 29.7px 21px;
+  height: 168px;
+  width: 275px;
 }
 
 .title {
   font-size: 20px;
   height: 21px;
   width: 278px;
-  margin-left: 18px;
-  margin-right: 19px;
-  margin-bottom: 16.19px;
+  margin-top: -13.4px;
+  margin-bottom: -13.4px;
+  padding:0 19px 16.19px 18px;
 }
 
 .text {
   font-size: 16px;
+  height: 50px;
   width: 278px;
   margin-left: 18px;
   margin-right: 19px;
   margin-bottom: 25.24px;
-  line-height: 1.15;
+  line-height: 1.7;
 }
 
 .btn {
   font-size: 16px;
   color: #FFFFFF;
-  height: 44px;
   width: 200px;
   margin-left: 58px;
   margin-right: 57px;
   margin-bottom: 28px;
   background: #485A7C;
   border-radius: 5px;
-  box-shadow: 0 3px 0 #263146;
+  border-bottom: 4px solid #263146;
+  /* height: 44px; */
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .btn-text{
   padding: 13px 55.5px 15px 54.5px;
+}
+
+.btn:active {
+  background: #5F7DB5;
+  color:white;
+  border-radius: 5px;
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
 }
