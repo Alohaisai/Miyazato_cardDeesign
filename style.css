@@ -4,7 +4,9 @@
   background: #FFFFFF;
   color: #333333;
   height: 667px;
-  width: 375px;
+  width: 1150px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -70,4 +72,88 @@
 
 a {
   text-decoration: none;
+}
+
+/* スマホを想定 */
+@media screen and (max-width: 768px) {
+.container {
+  background: #FFFFFF;
+  color: #333333;
+  height: 667px;
+  width: 375px;
+  }
+
+.box {
+  height: 401.12px;
+  width: 315px;
+  margin: 30px 30px 235.88px 30px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  display: none;
+  }
+
+.beach {
+  margin: 19px 21px 29.7px 21px;
+  height: 168px;
+  width: 275px;
+}
+
+.title {
+  font-size: 20px;
+  height: 21px;
+  width: 278px;
+  margin-top: -13.4px;
+  margin-bottom: -13.4px;
+  padding:0 19px 16.19px 18px;
+}
+
+.text {
+  font-size: 16px;
+  height: 50px;
+  width: 278px;
+  margin-left: 18px;
+  margin-right: 19px;
+  margin-bottom: 25.24px;
+  line-height: 1.7;
+}
+
+.btn {
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 200px;
+  margin-left: 58px;
+  margin-right: 57px;
+  margin-bottom: 28px;
+  background: #485A7C;
+  border-radius: 5px;
+  border-bottom: 4px solid #263146;
+    /* height: 44px; */
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.btn-text{
+  padding: 13px 55.5px 15px 54.5px;
+}
+
+.btn:active {
+  background: #5F7DB5;
+  color:white;
+  border-radius: 5px;
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 }
